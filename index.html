@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascometro: Mestre do Churrasco!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Churrascometro</h1>
+
+        <form id="formulario">
+            <label for="homens">Homens:</label>
+            <input type="number" id="homens" name="homens" min="0" value="0" required>
+
+            <label for="mulheres">Mulheres:</label>
+            <input type="number" id="mulheres" name="mulheres" min="0" value="0" required>
+
+            <label for="criancas">Crianças:</label>
+            <input type="number" id="criancas" name="criancas" min="0" value="0" required>
+
+            <button type="button" id="btnCalcular">Calcular Churrasco</button>
+        </form>
+
+        <div id="resultados" class="resultados">
+            </div>
+    </div>
+
+    <footer class="footer">
+        <p>Feito por Gabriel Santos</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+ 

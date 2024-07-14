@@ -1,0 +1,97 @@
+/* Estilo geral */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+/* Formulário */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#btnCalcular {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#btnCalcular:hover {
+    background-color: #45a049;
+}
+
+/* Resultados */
+
+.resultados {
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.resultados h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.resultados ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resultados li {
+    margin-bottom: 10px;
+}
+
+.resultados li strong {
+    font-weight: bold;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #eee;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #666;
+}
